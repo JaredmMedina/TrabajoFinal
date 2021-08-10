@@ -1,0 +1,102 @@
+body { background-color: #000000;
+       background-image: linear-gradient(to bottom, #000000, #000000);
+       background-repeat: no-repeat; 
+       color: #666666;
+	   font-family: Verdana, Arial, sans-serif;
+}
+
+*{
+     box-sizing: border-box;
+}
+
+body{
+     margin: 0;
+     padding: 0;
+}
+
+img{
+     width: 100%;
+}
+
+.row{
+     display: flex;
+     padding: 5px;
+}
+
+.column{
+     flex: 25%;
+     padding: 5px;
+}
+
+.column img{
+     margin-top: 5px;
+}
+
+#wrapper { background-color: #000000;
+           margin-left: auto;
+           margin-right: auto;
+		   width: 80%;
+		   min-width: 960px;
+		   max-width: 2048px;
+		   box-shadow: 3px 3px 3px #777;
+}
+header { background-color: #bb0000;
+         background-image: url(1369307.jpg);
+		 background-position: right;
+		 background-repeat: no-repeat;
+         color: #ff0000;
+		 font-family: Georgia, serif;
+}
+h1 { text-align: center;
+     padding-top: .5em; }
+h2 { color: #ff0000;
+     font-family: Georgia, serif; 
+}
+h3 { font-family: Georgia, serif; }
+nav { font-weight: bold; 
+	  padding-top: .5em;
+	  padding-right: .5em;
+	  padding-bottom: .5em;
+	  text-align: center;
+}
+nav a { text-decoration: none; }
+main { padding-left: 2em;
+       padding-right: 2em;
+       display: block; }
+dt { color: #bb0202;
+     font-weight: bold;
+}
+.Gamefo { color: #c50404;
+          font-size: 1.2em;
+}
+#GamePicture { height: 300px;
+            background-image: url(Juegos.png);
+  			background-repeat: no-repeat;
+            background-size: 100% 100%; }
+
+#Top1  { height: 300px;
+     background-image: url(WOW.jpg);
+          background-repeat: no-repeat;
+     background-size: 70% 90%;
+     ;
+ }
+
+ #Top2  { height: 300px;
+     background-image: url(LOL.jpg);
+          background-repeat: no-repeat;
+     background-size: 70% 90%;
+     ;
+ }
+
+ #Top3  { height: 300px;
+     background-image: url(CSGO.jpg);
+          background-repeat: no-repeat;
+     background-size: 70% 90%;
+     ;
+ }
+
+footer { font-size: .70em;
+         font-style: italic;
+		 text-align: center;
+		 padding: 1em;
+}
